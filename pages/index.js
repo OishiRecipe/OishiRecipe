@@ -45,7 +45,9 @@ export default function Home() {
 			</main>
 
 			<footer className={styles.footer}>
-				<p>© 2021 OishiRecipe. All rights reserved.</p>
+				<div>
+					<p>© 2021 OishiRecipe. All rights reserved.</p>
+				</div>
 			</footer>
 		</div>
 	);
