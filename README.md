@@ -24,3 +24,7 @@ You come to the right space. Post a ton of recipes Ideas and Share it with the w
 **Medium Champagne** = _#EDE7B1_
 
 **Uranian Blue** = _#A9DEF9_
+
+### Font Pairing
+
+Poppins & PT Serif
