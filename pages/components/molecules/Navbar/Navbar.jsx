@@ -1,12 +1,16 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import Link from "next/Link";
 
 const Navbar = () => {
 	return (
 		<nav>
 			<ul>
-				<Link>Home</Link>
-				<Link>Features</Link>
+				<li>
+					<Link href='/'>About</Link>
+					<Link href='/'>Features</Link>
+					<Link href='/'>Blog</Link>
+					<Link href='/'>Support</Link>
+				</li>
 			</ul>
 		</nav>
 	);

@@ -12,12 +12,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Navbar />
-			<BrowserRouter>
-				<Switch>
-					<Route path='/' exact component={Landingpage} />
-				</Switch>
-			</BrowserRouter>
-
+			<Landingpage />
 			<footer className={styles.footer}>
 				<div>
 					<p>© 2021 OishiRecipe. All rights reserved.</p>
