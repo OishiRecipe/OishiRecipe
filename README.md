@@ -10,3 +10,17 @@ You come to the right space. Post a ton of recipes Ideas and Share it with the w
 - NextJS
 - React with Hooks
 - Prisma
+
+## UI & UX
+
+### Color Theme
+
+**Aero Blue** = _#D3F8E2_
+
+**Mauve** = _#E4C1F9_
+
+**Amaranth Pink** = _#F694C1_
+
+**Medium Champagne** = _#EDE7B1_
+
+**Uranian Blue** = _#A9DEF9_
