@@ -33,8 +33,10 @@ const Navbar = () => {
 				<li className={styles.navItem}>
 					<Link href='/'>Support</Link>
 				</li>
-				<li className={styles.buttonPrimary}>
-					<Link href='/'>Get started</Link>
+				<li className={styles.navItem}>
+					<button className={styles.ctaButton} href='/'>
+						Get started
+					</button>
 				</li>
 			</ul>
 		</nav>
