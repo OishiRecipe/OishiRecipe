@@ -15,3 +15,7 @@
 	border-radius: 2rem;
 	color: var(--white);
 }
+
+.hero {
+	margin-top: 2rem;
+}
