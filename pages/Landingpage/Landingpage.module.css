@@ -18,4 +18,11 @@
 
 .hero {
 	margin-top: 2rem;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+}
+
+.heroImg {
+	border-radius: 30%;
 }
