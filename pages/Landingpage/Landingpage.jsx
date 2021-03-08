@@ -9,8 +9,8 @@ const Landingpage = () => {
 				<div className={styles.fullscreenVideoWrapper}>
 					<video src='/videos/heroVid.mp4' type='video/mp4' autoPlay='true' loop='true'></video>
 				</div>
-				<div className='header-overlay'></div>
-				<div className='cta'>
+				<div className={styles.headerOverlay}></div>
+				<div className={styles.cta}>
 					<h1>Hello to Oishie Recipies</h1>
 					<p>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam impedit labore quaerat

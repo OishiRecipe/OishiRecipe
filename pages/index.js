@@ -13,14 +13,13 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Navbar />
-			<div className={styles.container}>
-				<Landingpage />
-				<footer className={styles.footer}>
-					<div>
-						<p>© 2021 OishiRecipe. All rights reserved.</p>
-					</div>
-				</footer>
-			</div>
+
+			<Landingpage />
+			<footer className={styles.footer}>
+				<div>
+					<p>© 2021 OishiRecipe. All rights reserved.</p>
+				</div>
+			</footer>
 		</div>
 	);
 }
