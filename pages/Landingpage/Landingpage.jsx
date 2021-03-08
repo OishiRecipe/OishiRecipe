@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Landingpage.module.css";
+import Image from "next/image";
 
 const Landingpage = () => {
 	return (
@@ -13,6 +14,13 @@ const Landingpage = () => {
 					</div>
 					<button className={styles.ctaButton}>Ready to cook</button>
 				</div>
+				<Image
+					src='/images/heroImg.png'
+					alt='Hero Image'
+					className={styles.heroImg}
+					width={500}
+					height={500}
+				/>
 			</div>
 			<div className='features'></div>
 		</div>
