@@ -5,23 +5,20 @@ import Image from "next/image";
 const Landingpage = () => {
 	return (
 		<div>
-			<div class={styles.hero}>
-				<div className='cta'>
-					<div className='cta-text'>
-						You wanna explore the culinary world and wanna follow a step by step guide on how to
-						cook it. Then theres is no need to look further just head in and share your culinary
-						Recipes with the World.
-					</div>
-					<button className={styles.ctaButton}>Ready to cook</button>
+			<header className={(styles.vHeader, styles.container)}>
+				<div className={styles.fullscreenVideoWrapper}>
+					<video src='/videos/heroVid.mp4' type='video/mp4' autoPlay='true' loop='true'></video>
 				</div>
-				<Image
-					src='/images/heroImg.png'
-					alt='Hero Image'
-					className={styles.heroImg}
-					width={500}
-					height={500}
-				/>
-			</div>
+				<div className='header-overlay'></div>
+				<div className='cta'>
+					<h1>Hello to Oishie Recipies</h1>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam impedit labore quaerat
+						omnis corporis voluptate blanditiis animi doloremque incidunt tempore.
+					</p>
+					<button className={styles.ctaButton}>Get started</button>
+				</div>
+			</header>
 			<div className='features'></div>
 		</div>
 	);
