@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Landingpage.module.css";
 import Image from "next/image";
-import { Feature } from "../components/pages/Feature/Feature";
+import { Feature } from "../components/organisms/Feature/Feature";
 
 const Landingpage = () => {
 	return (
