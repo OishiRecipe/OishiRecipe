@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Landingpage.module.css";
 import Image from "next/image";
+import { Feature } from "../components/pages/Feature/Feature";
 
 const Landingpage = () => {
 	return (
@@ -19,7 +20,7 @@ const Landingpage = () => {
 					<button className={styles.ctaButton}>Get started</button>
 				</div>
 			</header>
-			<div className='features'></div>
+			<Feature />
 		</div>
 	);
 };
