@@ -12,7 +12,7 @@ export const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<div>
-				<div className='social-links'>
+				<div className={styles.socialLinks}>
 					<AiFillFacebook />
 					<AiOutlineInstagram />
 					<AiFillTwitterSquare />
