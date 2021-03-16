@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import feature_share from "../../../../public/images/feature_share_recepies.svg";
-import feature_share from "../../../../public/images/feature_share_recepies.svg";
-import feature_share from "../../../../public/images/feature_share_recepies.svg";
+import feature_feedback from "../../../../public/images/feature_feedback.svg";
+import feature_network from "../../../../public/images/feature_network.svg";
 
 import feature_explore_different_cultural_recepies from "../../../../public/images/feature_explore_different_cultural_recepies.svg";
 
@@ -26,7 +26,7 @@ export const Feature = () => {
 			</div>
 			<div className='feature-card'>
 				<Image
-					src={feature_share}
+					src={feature_feedback}
 					alt='feature img that showcase Get Feedback from the community'
 					width='250'
 					height='250'
@@ -41,7 +41,7 @@ export const Feature = () => {
 			</div>
 			<div className='feature-card'>
 				<Image
-					src={feature_share}
+					src={feature_network}
 					alt='feature img that showcase Build your Networks of cookers'
 					width='250'
 					height='250'
