@@ -3,8 +3,8 @@ import Image from "next/image";
 import feature_share from "../../../../public/images/feature_share_recepies.svg";
 import feature_feedback from "../../../../public/images/feature_feedback.svg";
 import feature_network from "../../../../public/images/feature_network.svg";
-
 import feature_explore_different_cultural_recepies from "../../../../public/images/feature_explore_different_cultural_recepies.svg";
+import feature_eating from "../../../../public/images/feature_eating.svg";
 
 export const Feature = () => {
 	return (
@@ -71,7 +71,7 @@ export const Feature = () => {
 			</div>
 			<div className='feature-card'>
 				<Image
-					src={feature_share}
+					src={feature_eating}
 					alt='Feature to Just enjoy eating'
 					width='250'
 					height='250'
