@@ -8,6 +8,7 @@
 		"start": "next start"
 	},
 	"dependencies": {
+		"@svgr/webpack": "^5.5.0",
 		"@zeit/next-css": "^1.0.1",
 		"babel-preset-es2015": "^6.24.1",
 		"next": "10.0.6",

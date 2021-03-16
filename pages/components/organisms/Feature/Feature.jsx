@@ -1,12 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import moduleName from "../../../../public/images/feature_share_recepies.svg";
+import feature_share from "../../../../public/images/feature_share_recepies.svg";
 
 export const Feature = () => {
 	return (
 		<div>
 			<div className='feature-card'>
-				<Image src={""} alt='feature img that showcase share your recepies' />
+				<Image
+					src={feature_share}
+					alt='feature img that showcase share your recepies'
+					width='250'
+					height='250'
+					layout='responsive'
+				/>
 				<h2 className='feature-title'>Share your recepies</h2>
 				<p className='feature-description'>
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae corrupti cupiditate
